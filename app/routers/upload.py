@@ -1,5 +1,4 @@
 import os
-import shutil
 import uuid
 
 from config import config

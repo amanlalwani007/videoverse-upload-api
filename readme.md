@@ -39,7 +39,7 @@ Case 1 :- upload valid video
 Case 2 :- Upload Video invalid > 25MB
 ![Local Image](readme-tests/upload_video>25MB.png)
 
-Case 3:- Upload API which are not in defined duration 
+Case 3:- Upload video which are not in defined duration 
 
 ![Local Image](readme-tests/upload_video_invalid_duration.png)
 
@@ -51,7 +51,7 @@ Method:-  POST
 Case 1 :- Trim non existing video 
 ![Local Image](readme-tests/trim_non_existent_video.png)
 
-Case 2 :- Trim existing Api 
+Case 2 :- Trim existing video
 
 ![Local Image](readme-tests/trim_existing_video.png)
 
@@ -96,3 +96,11 @@ Case 1 :- Link is expired
 Case 2 :- Link is valid
 
 ![Local Image](readme-tests/download_video_valid_link.png)
+
+```
+Run Unit test cases
+Command : pytest --cov=app --cov-report=term-missing
+Attach Report below 
+```
+
+![Local Image](readme-tests/unit_test_case_coverage.png)
